@@ -17,6 +17,11 @@ MYSQL_TABLES=(
 
   content
   content_items
+
+  cbl_competencies
+  cbl_content_areas
+  cbl_skills
+  cbl_student_competencies
 )
 
 DUMP_OPTIONS=(
