@@ -7,7 +7,7 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `people` (
-  `ID` int(10) unsigned NOT NULL,
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Class` enum('Emergence\\People\\Person','Emergence\\People\\User','Slate\\People\\Student') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `CreatorID` int(11) DEFAULT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE `people` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Username` (`Username`),
   UNIQUE KEY `StudentNumber` (`StudentNumber`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `people` VALUES (2,'Slate\\People\\Student','2017-08-28 21:47:35',1,'2017-08-28 22:11:19',1,'Alfonso','Albert',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'aalbert','$2y$10$wfAnuWkm6M3f2iin7Cfnlep1hg0T2Tt2VJPuI6YVMFE9.veiXx6Uy','User',NULL,'10023468',NULL,2019);
@@ -63,7 +63,7 @@ INSERT INTO `people` VALUES (23,'Emergence\\People\\User','2017-08-28 21:48:48',
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_people` (
-  `RevisionID` int(10) unsigned NOT NULL,
+  `RevisionID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ID` int(10) unsigned NOT NULL,
   `Class` enum('Emergence\\People\\Person','Emergence\\People\\User','Slate\\People\\Student') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -91,7 +91,7 @@ CREATE TABLE `history_people` (
   `GraduationYear` year(4) DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_people` VALUES (2,2,'Slate\\People\\Student','2017-08-28 21:47:35',1,NULL,NULL,'Alfonso','Albert',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'aalbert','$2y$10$wfAnuWkm6M3f2iin7Cfnlep1hg0T2Tt2VJPuI6YVMFE9.veiXx6Uy','User',NULL,'10023468',NULL,2017);

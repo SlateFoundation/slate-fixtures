@@ -7,7 +7,7 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `group_members` (
-  `ID` int(10) unsigned NOT NULL,
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Class` enum('Emergence\\People\\Groups\\GroupMember') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `CreatorID` int(11) DEFAULT NULL,
@@ -20,7 +20,7 @@ CREATE TABLE `group_members` (
   `Expires` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `GroupPerson` (`GroupID`,`PersonID`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `group_members` VALUES (5,'Emergence\\People\\Groups\\GroupMember','2017-08-28 21:47:36',1,8,6,'Member',NULL,NULL,'2017-08-28 21:47:36',NULL);

@@ -21,6 +21,7 @@ DUMP_OPTIONS=(
   --skip-opt
   --skip-comments
   --skip-dump-date
+  --create-options
 )
 
 for TABLE_NAME in "${MYSQL_TABLES[@]}"

@@ -7,7 +7,7 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `terms` (
-  `ID` int(10) unsigned NOT NULL,
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Class` enum('Slate\\Term') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `CreatorID` int(11) DEFAULT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE `terms` (
   UNIQUE KEY `Handle` (`Handle`),
   UNIQUE KEY `Left` (`Left`),
   FULLTEXT KEY `FULLTEXT` (`Title`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `terms` VALUES (1,'Slate\\Term','2017-08-28 21:30:39',1,'2017-08-28 21:30:50',1,'2017-18','y2017','Live','2017-09-05','2018-06-12',NULL,1,14);
@@ -38,7 +38,7 @@ INSERT INTO `terms` VALUES (7,'Slate\\Term','2017-08-28 21:33:42',1,'2017-08-28 
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_terms` (
-  `RevisionID` int(10) unsigned NOT NULL,
+  `RevisionID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ID` int(10) unsigned NOT NULL,
   `Class` enum('Slate\\Term') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -55,7 +55,7 @@ CREATE TABLE `history_terms` (
   `Right` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_terms` VALUES (1,1,'Slate\\Term','2017-08-28 21:30:39',1,NULL,NULL,'2017-18','term','Live','2017-09-05','2018-06-12',NULL,1,2);

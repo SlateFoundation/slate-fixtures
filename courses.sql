@@ -7,7 +7,7 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `courses` (
-  `ID` int(10) unsigned NOT NULL,
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Class` enum('Slate\\Courses\\Course') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `CreatorID` int(11) DEFAULT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE `courses` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Code` (`Code`),
   FULLTEXT KEY `FULLTEXT` (`Title`,`Description`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `courses` VALUES (1,'Slate\\Courses\\Course','2017-08-28 21:49:14',1,'2017-08-28 21:50:17',1,'Science Studio','SCI','Live',NULL,NULL,NULL);
@@ -30,7 +30,7 @@ INSERT INTO `courses` VALUES (2,'Slate\\Courses\\Course','2017-08-28 21:49:14',1
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_courses` (
-  `RevisionID` int(10) unsigned NOT NULL,
+  `RevisionID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ID` int(10) unsigned NOT NULL,
   `Class` enum('Slate\\Courses\\Course') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -45,7 +45,7 @@ CREATE TABLE `history_courses` (
   `DepartmentID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_courses` VALUES (1,1,'Slate\\Courses\\Course','2017-08-28 21:49:14',1,NULL,NULL,'SCI','SCI','Live',NULL,NULL,NULL);

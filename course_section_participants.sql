@@ -7,7 +7,7 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `course_section_participants` (
-  `ID` int(10) unsigned NOT NULL,
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Class` enum('Slate\\Courses\\SectionParticipant') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `CreatorID` int(11) DEFAULT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE `course_section_participants` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Participant` (`CourseSectionID`,`PersonID`),
   KEY `PersonID` (`PersonID`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `course_section_participants` VALUES (1,'Slate\\Courses\\SectionParticipant','2017-08-28 21:49:14',1,1,23,'Teacher',NULL,NULL);

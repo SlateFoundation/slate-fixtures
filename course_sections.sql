@@ -7,7 +7,7 @@
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `course_sections` (
-  `ID` int(10) unsigned NOT NULL,
+  `ID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `Class` enum('Slate\\Courses\\Section') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `CreatorID` int(11) DEFAULT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE `course_sections` (
   UNIQUE KEY `Code` (`Code`),
   KEY `CourseID` (`CourseID`),
   FULLTEXT KEY `FULLTEXT` (`Notes`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `course_sections` VALUES (1,'Slate\\Courses\\Section','2017-08-28 21:49:14',1,NULL,NULL,1,'Science Studio','SCI-001','Live',NULL,NULL,1,NULL,NULL);
@@ -34,7 +34,7 @@ INSERT INTO `course_sections` VALUES (2,'Slate\\Courses\\Section','2017-08-28 21
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_course_sections` (
-  `RevisionID` int(10) unsigned NOT NULL,
+  `RevisionID` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `ID` int(10) unsigned NOT NULL,
   `Class` enum('Slate\\Courses\\Section') NOT NULL,
   `Created` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -52,7 +52,7 @@ CREATE TABLE `history_course_sections` (
   `LocationID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-);
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_course_sections` VALUES (1,1,'Slate\\Courses\\Section','2017-08-28 21:49:14',1,NULL,NULL,1,'Science Studio','SCI-001','Live',NULL,NULL,1,NULL,NULL);
