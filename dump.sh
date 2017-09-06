@@ -14,6 +14,9 @@ MYSQL_TABLES=(
   courses
   course_sections
   course_section_participants
+
+  content
+  content_items
 )
 
 DUMP_OPTIONS=(
