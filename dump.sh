@@ -6,6 +6,8 @@ MYSQL_PASSWORD=$(sudo cat /emergence/config.json | underscore extract --outfmt t
 MYSQL_DATABASE=${1?missing parameter: database}
 
 MYSQL_TABLES=(
+  _e_migrations
+
   people
   groups
   group_members
