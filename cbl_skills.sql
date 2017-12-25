@@ -17,7 +17,7 @@ CREATE TABLE `cbl_skills` (
   `Code` varchar(255) NOT NULL,
   `Descriptor` text NOT NULL,
   `Statement` text NOT NULL,
-  `DemonstrationsRequired` text NOT NULL,
+  `DemonstrationsRequired` json NOT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Code` (`Code`),
   KEY `CompetencyID` (`CompetencyID`)
