@@ -18,7 +18,7 @@ CREATE TABLE `cbl_student_competencies` (
   `BaselineRating` decimal(5,2) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `StudentCompetency` (`StudentID`,`CompetencyID`,`Level`)
-) ENGINE=MyISAM AUTO_INCREMENT=281 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=285 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_student_competencies` VALUES (1,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:18',1,6,19,9,'enrollment',NULL);
@@ -81,23 +81,23 @@ INSERT INTO `cbl_student_competencies` VALUES (57,'Slate\\CBL\\StudentCompetency
 INSERT INTO `cbl_student_competencies` VALUES (58,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:18',1,22,22,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (59,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:18',1,22,23,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (60,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:18',1,22,24,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (61,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,1,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (62,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,2,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (63,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,3,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (61,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,1,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (62,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,2,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (63,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,3,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (64,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,4,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (65,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,5,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (66,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (67,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (68,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,6,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (69,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,1,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (70,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,2,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (71,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,3,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (69,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,1,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (70,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,2,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (71,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,3,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (72,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,4,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (73,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,5,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (74,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (75,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (76,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,7,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (77,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,1,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (77,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,1,9,'enrollment',9.00);
 INSERT INTO `cbl_student_competencies` VALUES (78,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,2,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (79,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,3,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (80,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,4,9,'enrollment',NULL);
@@ -105,7 +105,7 @@ INSERT INTO `cbl_student_competencies` VALUES (81,'Slate\\CBL\\StudentCompetency
 INSERT INTO `cbl_student_competencies` VALUES (82,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (83,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (84,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,8,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (85,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,1,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (85,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,1,9,'enrollment',8.00);
 INSERT INTO `cbl_student_competencies` VALUES (86,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,2,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (87,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,3,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (88,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,4,9,'enrollment',NULL);
@@ -113,7 +113,7 @@ INSERT INTO `cbl_student_competencies` VALUES (89,'Slate\\CBL\\StudentCompetency
 INSERT INTO `cbl_student_competencies` VALUES (90,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (91,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (92,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,9,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (93,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,10,1,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (93,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,10,1,9,'enrollment',8.00);
 INSERT INTO `cbl_student_competencies` VALUES (94,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,10,2,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (95,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,10,3,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (96,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,10,4,9,'enrollment',NULL);
@@ -161,34 +161,34 @@ INSERT INTO `cbl_student_competencies` VALUES (137,'Slate\\CBL\\StudentCompetenc
 INSERT INTO `cbl_student_competencies` VALUES (138,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,22,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (139,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,22,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (140,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:24',1,22,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (141,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,1,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (142,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,2,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (143,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,3,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (144,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,4,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (141,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,1,9,'enrollment',12.00);
+INSERT INTO `cbl_student_competencies` VALUES (142,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,2,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (143,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,3,9,'enrollment',10.00);
+INSERT INTO `cbl_student_competencies` VALUES (144,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,4,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (145,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,5,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (146,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (147,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (148,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,2,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (149,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,1,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (150,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,2,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (151,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,3,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (152,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,4,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (149,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,1,9,'enrollment',12.00);
+INSERT INTO `cbl_student_competencies` VALUES (150,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,2,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (151,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,3,9,'enrollment',10.00);
+INSERT INTO `cbl_student_competencies` VALUES (152,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,4,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (153,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,5,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (154,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (155,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (156,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,3,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (157,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,1,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (158,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,2,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (159,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,3,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (160,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,4,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (157,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,1,9,'enrollment',12.00);
+INSERT INTO `cbl_student_competencies` VALUES (158,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,2,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (159,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,3,9,'enrollment',10.00);
+INSERT INTO `cbl_student_competencies` VALUES (160,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,4,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (161,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,5,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (162,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (163,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (164,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (165,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,1,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (166,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,2,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (167,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,3,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (168,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,4,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (165,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,1,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (166,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,2,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (167,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,3,9,'enrollment',10.00);
+INSERT INTO `cbl_student_competencies` VALUES (168,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,4,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (169,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,5,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (170,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (171,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,7,9,'enrollment',NULL);
@@ -201,7 +201,7 @@ INSERT INTO `cbl_student_competencies` VALUES (177,'Slate\\CBL\\StudentCompetenc
 INSERT INTO `cbl_student_competencies` VALUES (178,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,11,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (179,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,11,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (180,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,11,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (181,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,12,1,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (181,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,12,1,9,'enrollment',8.00);
 INSERT INTO `cbl_student_competencies` VALUES (182,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,12,2,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (183,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,12,3,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (184,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,12,4,9,'enrollment',NULL);
@@ -301,6 +301,10 @@ INSERT INTO `cbl_student_competencies` VALUES (277,'Slate\\CBL\\StudentCompetenc
 INSERT INTO `cbl_student_competencies` VALUES (278,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:45',1,17,22,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (279,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:45',1,17,23,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (280,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:45',1,17,24,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (281,'Slate\\CBL\\StudentCompetency','2017-12-25 19:07:52',1,3,1,10,'graduation',8.00);
+INSERT INTO `cbl_student_competencies` VALUES (282,'Slate\\CBL\\StudentCompetency','2017-12-25 19:07:57',1,4,1,10,'graduation',8.00);
+INSERT INTO `cbl_student_competencies` VALUES (283,'Slate\\CBL\\StudentCompetency','2017-12-25 19:15:15',1,3,2,10,'graduation',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (284,'Slate\\CBL\\StudentCompetency','2017-12-25 19:16:08',1,3,3,10,'graduation',NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
