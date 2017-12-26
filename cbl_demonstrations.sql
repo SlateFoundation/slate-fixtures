@@ -22,7 +22,7 @@ CREATE TABLE `cbl_demonstrations` (
   `PerformanceType` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   KEY `StudentID` (`StudentID`)
-) ENGINE=MyISAM AUTO_INCREMENT=50 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=77 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_demonstrations` VALUES (1,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-25 19:07:23',1,NULL,NULL,3,'2017-12-25 05:00:00',NULL,NULL,'Core Studio','Mythbusters','Media presentation');
@@ -74,6 +74,33 @@ INSERT INTO `cbl_demonstrations` VALUES (46,'Slate\\CBL\\Demonstrations\\Overrid
 INSERT INTO `cbl_demonstrations` VALUES (47,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:38:29',1,NULL,NULL,3,'2017-12-26 23:38:29',NULL,'override ELA.6.HS.1 for alysha',NULL,NULL,NULL);
 INSERT INTO `cbl_demonstrations` VALUES (48,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:38:51',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Position paper');
 INSERT INTO `cbl_demonstrations` VALUES (49,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:38:57',1,NULL,NULL,3,'2017-12-26 23:38:57',NULL,'override ELA.6.HS.2 for alysha',NULL,NULL,NULL);
+INSERT INTO `cbl_demonstrations` VALUES (50,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:42',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (51,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:45',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (52,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:45',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (53,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:46',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (54,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:46',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (55,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:53',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (56,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:54',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (57,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:54',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (58,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:55',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (59,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:04',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (60,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:05',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (61,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:06',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (62,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:07',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (63,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:11',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (64,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:45',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (65,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:45',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (66,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:46',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (67,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:47',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (68,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:51',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (69,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:54',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (70,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:56',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (71,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:52:15',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (72,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:52:24',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `cbl_demonstrations` VALUES (73,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:52:41',1,NULL,NULL,3,'2017-12-26 23:52:41',NULL,'override 4',NULL,NULL,NULL);
+INSERT INTO `cbl_demonstrations` VALUES (74,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:52:50',1,NULL,NULL,3,'2017-12-26 23:52:50',NULL,'override 3',NULL,NULL,NULL);
+INSERT INTO `cbl_demonstrations` VALUES (75,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:52:57',1,NULL,NULL,3,'2017-12-26 23:52:57',NULL,'override 2',NULL,NULL,NULL);
+INSERT INTO `cbl_demonstrations` VALUES (76,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:53:05',1,NULL,NULL,3,'2017-12-26 23:53:05',NULL,'override 1',NULL,NULL,NULL);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_demonstrations` (
@@ -93,7 +120,7 @@ CREATE TABLE `history_cbl_demonstrations` (
   `PerformanceType` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=50 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=77 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_cbl_demonstrations` VALUES (1,1,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-25 19:07:23',1,NULL,NULL,3,'2017-12-25 05:00:00',NULL,NULL,'Core Studio','Mythbusters','Media presentation');
@@ -145,6 +172,33 @@ INSERT INTO `history_cbl_demonstrations` VALUES (46,46,'Slate\\CBL\\Demonstratio
 INSERT INTO `history_cbl_demonstrations` VALUES (47,47,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:38:29',1,NULL,NULL,3,'2017-12-26 23:38:29',NULL,'override ELA.6.HS.1 for alysha',NULL,NULL,NULL);
 INSERT INTO `history_cbl_demonstrations` VALUES (48,48,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:38:51',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Position paper');
 INSERT INTO `history_cbl_demonstrations` VALUES (49,49,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:38:57',1,NULL,NULL,3,'2017-12-26 23:38:57',NULL,'override ELA.6.HS.2 for alysha',NULL,NULL,NULL);
+INSERT INTO `history_cbl_demonstrations` VALUES (50,50,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:42',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (51,51,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:45',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (52,52,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:45',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (53,53,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:46',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (54,54,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:46',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (55,55,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:53',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (56,56,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:54',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (57,57,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:54',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (58,58,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:50:55',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (59,59,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:04',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (60,60,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:05',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (61,61,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:06',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (62,62,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:07',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (63,63,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:11',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (64,64,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:45',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (65,65,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:45',1,NULL,NULL,4,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (66,66,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:46',1,NULL,NULL,2,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (67,67,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:47',1,NULL,NULL,5,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (68,68,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:51',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (69,69,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:54',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (70,70,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:51:56',1,NULL,NULL,6,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (71,71,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:52:15',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (72,72,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-26 23:52:24',1,NULL,NULL,3,'2017-12-26 05:00:00',NULL,NULL,'Core Studio','Journalism','Lab report');
+INSERT INTO `history_cbl_demonstrations` VALUES (73,73,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:52:41',1,NULL,NULL,3,'2017-12-26 23:52:41',NULL,'override 4',NULL,NULL,NULL);
+INSERT INTO `history_cbl_demonstrations` VALUES (74,74,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:52:50',1,NULL,NULL,3,'2017-12-26 23:52:50',NULL,'override 3',NULL,NULL,NULL);
+INSERT INTO `history_cbl_demonstrations` VALUES (75,75,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:52:57',1,NULL,NULL,3,'2017-12-26 23:52:57',NULL,'override 2',NULL,NULL,NULL);
+INSERT INTO `history_cbl_demonstrations` VALUES (76,76,'Slate\\CBL\\Demonstrations\\OverrideDemonstration','2017-12-26 23:53:05',1,NULL,NULL,3,'2017-12-26 23:53:05',NULL,'override 1',NULL,NULL,NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
