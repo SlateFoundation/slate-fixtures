@@ -65,6 +65,7 @@ INSERT INTO `_e_migrations` VALUES ('Slate/Connectors/20140915210000_sheet-key-n
 INSERT INTO `_e_migrations` VALUES ('Slate/Connectors/20160901_google-apps-keys','9e422c61629196856b6125384ef25678919dd1cd','2017-12-25 19:18:47','skipped');
 INSERT INTO `_e_migrations` VALUES ('Slate/Courses/20140721000000_participant-roles','9ba087408f9ca11a3ac674a8c26d84a64fccc611','2017-12-25 19:19:55','skipped');
 INSERT INTO `_e_migrations` VALUES ('Slate/Courses/20161214_section-term-notes','b1b9fd269ef81e09296d6c95d66b6481c078db0e','2017-12-25 19:19:01','skipped');
+INSERT INTO `_e_migrations` VALUES ('Slate/Courses/20171017_section-participant-cohort','f53fef75ad935f39bce42a2740c6018c5815ca2d','2017-12-31 04:00:46','executed');
 INSERT INTO `_e_migrations` VALUES ('Slate/People/20140712000000_assigned-password','13b0f26fed8b9376533dd86e1bc1bd2b9ae49bfa','2017-12-25 19:19:30','skipped');
 INSERT INTO `_e_migrations` VALUES ('Slate/People/20140713000000_initial-namespacing','982e74986ba3c338897217ee249bfe0b1c6a9fcd','2017-12-25 19:19:34','skipped');
 INSERT INTO `_e_migrations` VALUES ('Slate/People/20160903_temporary-password','7ca8865489119c0844cd313531162c1fb2a37ed9','2017-12-25 19:18:49','skipped');
