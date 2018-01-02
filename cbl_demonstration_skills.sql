@@ -19,7 +19,7 @@ CREATE TABLE `cbl_demonstration_skills` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `DemonstrationSkill` (`DemonstrationID`,`SkillID`),
   KEY `SkillID` (`SkillID`)
-) ENGINE=MyISAM AUTO_INCREMENT=441 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=465 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_demonstration_skills` VALUES (1,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2017-12-25 19:07:23',1,1,1,9,12,0);
@@ -462,6 +462,29 @@ INSERT INTO `cbl_demonstration_skills` VALUES (437,'Slate\\CBL\\Demonstrations\\
 INSERT INTO `cbl_demonstration_skills` VALUES (438,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2017-12-27 00:00:18',1,84,87,11,8,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (439,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2017-12-27 00:00:32',1,85,85,11,0,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (440,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2017-12-27 00:00:32',1,85,87,11,8,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (441,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:12',25,86,51,9,4,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (442,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:26',25,87,52,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (443,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:31',25,88,53,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (444,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:36',25,89,54,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (445,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:43',25,90,55,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (446,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:48',25,91,56,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (447,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:34:52',25,92,57,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (448,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:53:56',25,93,51,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (449,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:55:45',25,94,51,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (450,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:55:50',25,95,52,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (451,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:55:54',25,96,53,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (452,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:55:59',25,97,54,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (453,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:56:02',25,98,55,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (454,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:56:07',25,99,56,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (455,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 19:56:12',25,100,57,10,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (456,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:26:32',25,101,51,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (457,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:26:38',25,102,52,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (458,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:26:42',25,103,53,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (459,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:26:48',25,104,54,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (460,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:26:54',25,105,55,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (461,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:26:59',25,106,56,9,0,1);
+INSERT INTO `cbl_demonstration_skills` VALUES (463,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:27:38',25,108,57,9,6,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (464,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2018-01-02 21:27:54',25,109,57,9,0,1);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
