@@ -18,7 +18,7 @@ CREATE TABLE `cbl_student_competencies` (
   `BaselineRating` decimal(5,2) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `StudentCompetency` (`StudentID`,`CompetencyID`,`Level`)
-) ENGINE=MyISAM AUTO_INCREMENT=386 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=387 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_student_competencies` VALUES (1,'Slate\\CBL\\StudentCompetency','2017-08-28 22:09:18',1,6,19,9,'enrollment',NULL);
@@ -185,7 +185,7 @@ INSERT INTO `cbl_student_competencies` VALUES (161,'Slate\\CBL\\StudentCompetenc
 INSERT INTO `cbl_student_competencies` VALUES (162,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,6,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (163,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,7,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (164,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,4,8,9,'enrollment',NULL);
-INSERT INTO `cbl_student_competencies` VALUES (165,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,1,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (165,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,1,9,'enrollment',NULL);
 INSERT INTO `cbl_student_competencies` VALUES (166,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,2,9,'enrollment',9.00);
 INSERT INTO `cbl_student_competencies` VALUES (167,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,3,9,'enrollment',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (168,'Slate\\CBL\\StudentCompetency','2017-08-28 22:12:39',1,5,4,9,'enrollment',10.00);

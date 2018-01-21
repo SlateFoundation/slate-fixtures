@@ -20,7 +20,7 @@ CREATE TABLE `course_section_participants` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Participant` (`CourseSectionID`,`PersonID`),
   KEY `PersonID` (`PersonID`)
-) ENGINE=MyISAM AUTO_INCREMENT=45 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=46 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `course_section_participants` VALUES (1,'Slate\\Courses\\SectionParticipant','2017-08-28 21:49:14',1,1,23,'Teacher',NULL,NULL,NULL);
@@ -67,6 +67,7 @@ INSERT INTO `course_section_participants` VALUES (41,'Slate\\Courses\\SectionPar
 INSERT INTO `course_section_participants` VALUES (42,'Slate\\Courses\\SectionParticipant','2017-08-28 21:49:15',1,2,17,'Student',NULL,NULL,'Group M+');
 INSERT INTO `course_section_participants` VALUES (43,'Slate\\Courses\\SectionParticipant','2017-12-29 19:56:13',25,1,25,'Teacher',NULL,NULL,NULL);
 INSERT INTO `course_section_participants` VALUES (44,'Slate\\Courses\\SectionParticipant','2017-12-29 19:56:18',25,2,25,'Teacher',NULL,NULL,NULL);
+INSERT INTO `course_section_participants` VALUES (45,'Slate\\Courses\\SectionParticipant','2018-01-11 16:15:22',1,1,1,'Teacher',NULL,NULL,NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
