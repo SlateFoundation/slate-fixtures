@@ -68,7 +68,7 @@ INSERT INTO `cbl_student_tasks` VALUES (40,'Slate\\CBL\\Tasks\\StudentTask','201
 INSERT INTO `cbl_student_tasks` VALUES (41,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,3,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (42,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,4,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (43,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,2,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
-INSERT INTO `cbl_student_tasks` VALUES (44,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,5,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (44,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-26 16:50:49',25,3,5,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',123);
 INSERT INTO `cbl_student_tasks` VALUES (45,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,6,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (46,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,7,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (47,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,3,8,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
@@ -87,7 +87,7 @@ INSERT INTO `cbl_student_tasks` VALUES (59,'Slate\\CBL\\Tasks\\StudentTask','201
 INSERT INTO `cbl_student_tasks` VALUES (60,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:34',23,'2018-01-16 17:54:21',23,3,21,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (61,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,4,3,1,'Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (62,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,4,4,1,'Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
-INSERT INTO `cbl_student_tasks` VALUES (63,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:59:13',25,4,2,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (63,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-24 21:58:25',25,4,2,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',122);
 INSERT INTO `cbl_student_tasks` VALUES (64,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,4,5,1,'Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (65,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,4,6,1,'Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (67,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,4,8,1,'Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
@@ -130,7 +130,7 @@ CREATE TABLE `history_cbl_student_tasks` (
   `DemonstrationID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=129 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=131 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_cbl_student_tasks` VALUES (1,1,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:04:45',23,NULL,NULL,1,3,1,'Studio','2017-12-25 05:00:00',NULL,'assigned',NULL);
@@ -261,6 +261,8 @@ INSERT INTO `history_cbl_student_tasks` VALUES (125,80,'Slate\\CBL\\Tasks\\Stude
 INSERT INTO `history_cbl_student_tasks` VALUES (126,86,'Slate\\CBL\\Tasks\\StudentTask','2018-01-17 17:36:01',25,NULL,NULL,4,7,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `history_cbl_student_tasks` VALUES (127,22,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:05:27',23,'2018-01-17 17:42:41',25,2,4,1,'Studio','2018-02-24 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `history_cbl_student_tasks` VALUES (128,63,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:59:13',25,4,2,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (129,63,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-24 21:58:25',25,4,2,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',122);
+INSERT INTO `history_cbl_student_tasks` VALUES (130,44,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-26 16:50:49',25,3,5,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',123);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

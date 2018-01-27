@@ -22,7 +22,7 @@ CREATE TABLE `cbl_demonstrations` (
   `PerformanceType` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   KEY `StudentID` (`StudentID`)
-) ENGINE=MyISAM AUTO_INCREMENT=121 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=142 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_demonstrations` VALUES (1,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-25 19:07:23',1,NULL,NULL,3,'2017-12-25 05:00:00',NULL,NULL,'Core Studio','Mythbusters','Media presentation');
@@ -135,6 +135,27 @@ INSERT INTO `cbl_demonstrations` VALUES (112,'Slate\\CBL\\Demonstrations\\Experi
 INSERT INTO `cbl_demonstrations` VALUES (111,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-17 16:54:12',25,NULL,NULL,4,'2018-01-17 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
 INSERT INTO `cbl_demonstrations` VALUES (110,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-05 04:17:59',1,NULL,NULL,2,'2018-01-04 05:00:00',NULL,NULL,'Workshop','Mythbusters','Lab report');
 INSERT INTO `cbl_demonstrations` VALUES (120,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-17 17:21:26',25,NULL,NULL,2,'2018-01-17 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (121,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-24 21:13:00',23,NULL,NULL,10,'2018-01-24 05:00:00',NULL,'ankld','Workshop','Personal Finance','Media presentation');
+INSERT INTO `cbl_demonstrations` VALUES (122,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-24 21:58:25',23,NULL,NULL,2,'2018-01-24 21:58:25',NULL,NULL,'8. Studio','Science Studio','January Task');
+INSERT INTO `cbl_demonstrations` VALUES (123,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-26 16:50:49',23,NULL,NULL,5,'2018-01-26 16:50:49',NULL,NULL,'Studio','Science Studio','New Years Task');
+INSERT INTO `cbl_demonstrations` VALUES (124,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:10:42',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (125,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:10:47',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (126,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:01',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (127,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:06',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (128,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:12',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (129,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:16',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (130,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:17',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (131,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:20',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (132,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:20',1,NULL,NULL,9,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (133,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:27',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (134,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:28',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (135,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:29',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (136,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:37',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (137,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:38',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (138,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:41',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (139,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:50',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (140,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:53',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `cbl_demonstrations` VALUES (141,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:54',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_demonstrations` (
@@ -154,7 +175,7 @@ CREATE TABLE `history_cbl_demonstrations` (
   `PerformanceType` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=124 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=145 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_cbl_demonstrations` VALUES (1,1,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2017-12-25 19:07:23',1,NULL,NULL,3,'2017-12-25 05:00:00',NULL,NULL,'Core Studio','Mythbusters','Media presentation');
@@ -280,6 +301,27 @@ INSERT INTO `history_cbl_demonstrations` VALUES (120,117,'Slate\\CBL\\Demonstrat
 INSERT INTO `history_cbl_demonstrations` VALUES (121,118,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-17 17:18:42',25,NULL,NULL,4,'2018-01-17 05:00:00',NULL,NULL,'Core Studio','Journalism','Position paper');
 INSERT INTO `history_cbl_demonstrations` VALUES (122,119,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-17 17:19:43',25,NULL,NULL,2,'2018-01-17 05:00:00',NULL,NULL,'Choice Studio','Mythbusters','Lab report');
 INSERT INTO `history_cbl_demonstrations` VALUES (123,120,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-17 17:21:26',25,NULL,NULL,2,'2018-01-17 05:00:00',NULL,NULL,'Choice Studio','Journalism','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (124,121,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-24 21:13:00',23,NULL,NULL,10,'2018-01-24 05:00:00',NULL,'ankld','Workshop','Personal Finance','Media presentation');
+INSERT INTO `history_cbl_demonstrations` VALUES (125,122,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-24 21:58:25',23,NULL,NULL,2,'2018-01-24 21:58:25',NULL,NULL,'8. Studio','Science Studio','January Task');
+INSERT INTO `history_cbl_demonstrations` VALUES (126,123,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-26 16:50:49',23,NULL,NULL,5,'2018-01-26 16:50:49',NULL,NULL,'Studio','Science Studio','New Years Task');
+INSERT INTO `history_cbl_demonstrations` VALUES (127,124,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:10:42',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (128,125,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:10:47',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (129,126,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:01',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (130,127,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:06',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (131,128,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:12',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (132,129,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:16',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (133,130,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:17',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (134,131,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:20',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (135,132,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:20',1,NULL,NULL,9,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (136,133,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:27',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (137,134,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:28',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (138,135,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:29',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (139,136,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:37',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (140,137,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:38',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (141,138,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:41',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (142,139,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:50',1,NULL,NULL,7,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (143,140,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:53',1,NULL,NULL,8,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
+INSERT INTO `history_cbl_demonstrations` VALUES (144,141,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2018-01-27 15:11:54',1,NULL,NULL,10,'2018-01-27 05:00:00',NULL,NULL,'Choice Studio','Personal Finance','Position paper');
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
