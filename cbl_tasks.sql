@@ -30,7 +30,7 @@ CREATE TABLE `cbl_tasks` (
 INSERT INTO `cbl_tasks` VALUES (1,'Slate\\CBL\\Tasks\\ExperienceTask','2017-12-31 03:04:45',23,NULL,NULL,'Christmas Task','christmas_task',NULL,'2017-12-25 05:00:00',NULL,'Do things for Christmas!',NULL,'shared','Studio');
 INSERT INTO `cbl_tasks` VALUES (2,'Slate\\CBL\\Tasks\\ExperienceTask','2017-12-31 03:05:16',23,NULL,NULL,'Christman Eve Task','christman_eve_task',1,'2017-12-24 05:00:00',NULL,'Make cookies',NULL,'shared','Studio');
 INSERT INTO `cbl_tasks` VALUES (3,'Slate\\CBL\\Tasks\\ExperienceTask','2017-12-31 03:09:33',23,'2018-01-16 17:54:21',23,'New Years Task','new_years_task',NULL,'2018-01-01 05:00:00',NULL,NULL,NULL,'shared','Studio');
-INSERT INTO `cbl_tasks` VALUES (4,'Slate\\CBL\\Tasks\\ExperienceTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,'January Task','january_task',NULL,'2018-01-31 05:00:00',NULL,NULL,NULL,'shared','8. Studio');
+INSERT INTO `cbl_tasks` VALUES (4,'Slate\\CBL\\Tasks\\ExperienceTask','2017-12-31 03:10:12',23,'2018-01-17 17:35:32',25,'January Task','january_task',NULL,'2018-01-31 05:00:00',NULL,NULL,NULL,'shared','Studio');
 INSERT INTO `cbl_tasks` VALUES (5,'Slate\\CBL\\Tasks\\ExperienceTask','2017-12-31 03:10:54',23,NULL,NULL,'February Task for ABCs','february_task_for_abcs',NULL,'2018-02-28 05:00:00',NULL,NULL,NULL,'shared','Studio');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
