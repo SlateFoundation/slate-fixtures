@@ -23,7 +23,7 @@ CREATE TABLE `cbl_student_tasks` (
   `DemonstrationID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `StudentTask` (`TaskID`,`StudentID`)
-) ENGINE=MyISAM AUTO_INCREMENT=87 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=92 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_student_tasks` VALUES (1,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:04:45',23,NULL,NULL,1,3,1,'Studio','2017-12-25 05:00:00',NULL,'assigned',NULL);
@@ -110,6 +110,11 @@ INSERT INTO `cbl_student_tasks` VALUES (83,'Slate\\CBL\\Tasks\\StudentTask','201
 INSERT INTO `cbl_student_tasks` VALUES (84,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:54',23,NULL,NULL,5,5,1,'Studio','2018-02-28 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (85,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:54',23,NULL,NULL,5,6,1,'Studio','2018-02-28 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `cbl_student_tasks` VALUES (86,'Slate\\CBL\\Tasks\\StudentTask','2018-01-17 17:36:01',25,NULL,NULL,4,7,1,'Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (87,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:16',1,NULL,NULL,6,3,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (88,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:16',1,NULL,NULL,6,4,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (89,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:16',1,NULL,NULL,6,2,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (90,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:31',1,NULL,NULL,7,3,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `cbl_student_tasks` VALUES (91,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:31',1,NULL,NULL,7,4,1,'Studio',NULL,NULL,'assigned',NULL);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_student_tasks` (
@@ -130,7 +135,7 @@ CREATE TABLE `history_cbl_student_tasks` (
   `DemonstrationID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=131 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=136 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_cbl_student_tasks` VALUES (1,1,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:04:45',23,NULL,NULL,1,3,1,'Studio','2017-12-25 05:00:00',NULL,'assigned',NULL);
@@ -263,6 +268,11 @@ INSERT INTO `history_cbl_student_tasks` VALUES (127,22,'Slate\\CBL\\Tasks\\Stude
 INSERT INTO `history_cbl_student_tasks` VALUES (128,63,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-17 17:59:13',25,4,2,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',NULL);
 INSERT INTO `history_cbl_student_tasks` VALUES (129,63,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:10:12',23,'2018-01-24 21:58:25',25,4,2,1,'8. Studio','2018-01-31 05:00:00',NULL,'assigned',122);
 INSERT INTO `history_cbl_student_tasks` VALUES (130,44,'Slate\\CBL\\Tasks\\StudentTask','2017-12-31 03:09:33',23,'2018-01-26 16:50:49',25,3,5,1,'Studio','2018-01-01 05:00:00',NULL,'assigned',123);
+INSERT INTO `history_cbl_student_tasks` VALUES (131,87,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:16',1,NULL,NULL,6,3,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (132,88,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:16',1,NULL,NULL,6,4,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (133,89,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:16',1,NULL,NULL,6,2,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (134,90,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:31',1,NULL,NULL,7,3,1,'Studio',NULL,NULL,'assigned',NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (135,91,'Slate\\CBL\\Tasks\\StudentTask','2018-08-28 16:31:31',1,NULL,NULL,7,4,1,'Studio',NULL,NULL,'assigned',NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
