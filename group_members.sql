@@ -20,7 +20,7 @@ CREATE TABLE `group_members` (
   `Expires` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `GroupPerson` (`GroupID`,`PersonID`)
-) ENGINE=MyISAM AUTO_INCREMENT=33 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `group_members` VALUES (5,'Emergence\\People\\Groups\\GroupMember','2017-08-28 21:47:36',1,8,6,'Member',NULL,NULL,'2017-08-28 21:47:36',NULL);
@@ -45,6 +45,7 @@ INSERT INTO `group_members` VALUES (29,'Emergence\\People\\Groups\\GroupMember',
 INSERT INTO `group_members` VALUES (30,'Emergence\\People\\Groups\\GroupMember','2017-08-28 22:11:19',1,10,14,'Member',NULL,NULL,'2017-08-28 22:11:19',NULL);
 INSERT INTO `group_members` VALUES (31,'Emergence\\People\\Groups\\GroupMember','2017-08-28 22:11:19',1,10,16,'Member',NULL,NULL,'2017-08-28 22:11:19',NULL);
 INSERT INTO `group_members` VALUES (32,'Emergence\\People\\Groups\\GroupMember','2017-08-28 22:11:19',1,10,17,'Member',NULL,NULL,'2017-08-28 22:11:19',NULL);
+INSERT INTO `group_members` VALUES (33,'Emergence\\People\\Groups\\GroupMember','2018-11-09 23:40:40',1,6,24,'Member',NULL,NULL,'2018-11-09 23:40:40',NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

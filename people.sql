@@ -35,7 +35,7 @@ CREATE TABLE `people` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Username` (`Username`),
   UNIQUE KEY `StudentNumber` (`StudentNumber`)
-) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `people` VALUES (2,'Slate\\People\\Student','2017-08-28 21:47:35',1,'2017-08-28 22:11:19',1,'Alfonso','Albert',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'aalbert','$2y$10$wfAnuWkm6M3f2iin7Cfnlep1hg0T2Tt2VJPuI6YVMFE9.veiXx6Uy','User',NULL,'10023468',NULL,2019);
@@ -60,6 +60,7 @@ INSERT INTO `people` VALUES (20,'Slate\\People\\Student','2017-08-28 21:47:38',1
 INSERT INTO `people` VALUES (21,'Slate\\People\\Student','2017-08-28 21:47:38',1,NULL,NULL,'Tiffany','To',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'tto','$2y$10$RMSddJtS9asfzxYBrYS/XemOekQY3FSeN17VskuHaaw.0PlvcGrsa','User',NULL,'10023465',NULL,2018);
 INSERT INTO `people` VALUES (22,'Slate\\People\\Student','2017-08-28 21:47:38',1,NULL,NULL,'Demo','Student',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'demostudent','$2y$10$WIu3A7pgBq6HQOK6JwtozOJwLYY/6YacOVFl9UesnmBfFsHqgkQ/W','User',NULL,'1234567',NULL,2020);
 INSERT INTO `people` VALUES (23,'Emergence\\People\\User','2017-08-28 21:48:48',1,NULL,NULL,'Demo','Teacher',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'demoteacher','$2y$10$ifGVXIgbEAFQ5rFj324SJuAAUUVK31nFu7mxGDgyTOSVWbyxBz6oy','Staff',NULL,NULL,NULL,NULL);
+INSERT INTO `people` VALUES (24,'Emergence\\People\\User','2018-11-09 23:40:14',1,'2018-11-09 23:42:22',24,'Demo','Parent',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'demoparent','$2y$10$2tuyQQ8e2ZvzS8yjSuCBxulGaZIqps4Yn0Rx6Wf3yKBw6.dsjYLTm','User',NULL,NULL,NULL,NULL);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_people` (
@@ -91,7 +92,7 @@ CREATE TABLE `history_people` (
   `GraduationYear` year(4) DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=34 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_people` VALUES (2,2,'Slate\\People\\Student','2017-08-28 21:47:35',1,NULL,NULL,'Alfonso','Albert',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'aalbert','$2y$10$wfAnuWkm6M3f2iin7Cfnlep1hg0T2Tt2VJPuI6YVMFE9.veiXx6Uy','User',NULL,'10023468',NULL,2017);
@@ -126,6 +127,7 @@ INSERT INTO `history_people` VALUES (30,13,'Slate\\People\\Student','2017-08-28 
 INSERT INTO `history_people` VALUES (31,14,'Slate\\People\\Student','2017-08-28 21:47:37',1,'2017-08-28 22:11:19',1,'Mollie','McClenton',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'mmcclenton','$2y$10$vtwAt0Wxff09tp5kxtD90uTS7YJtNNsq3Kes1bSk8mh/Smb.RouvW','User',NULL,'10023469',NULL,2019);
 INSERT INTO `history_people` VALUES (32,16,'Slate\\People\\Student','2017-08-28 21:47:37',1,'2017-08-28 22:11:19',1,'Omer','Overbey',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'ooverbey','$2y$10$lZi4EhQ8Rv6f0vUCSTpoiuGLK3qsDja5S2GKyB3yC77CM75qd/o7C','User',NULL,'10023474',NULL,2019);
 INSERT INTO `history_people` VALUES (33,17,'Slate\\People\\Student','2017-08-28 21:47:38',1,'2017-08-28 22:11:19',1,'Sammy','Schlater',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'sschlater','$2y$10$VByhFYNQ9McDwVzLH1XfTeOT/9Zy2SMfJqkBOz5EusPzP1es1SJue','User',NULL,'10023475',NULL,2019);
+INSERT INTO `history_people` VALUES (34,24,'Emergence\\People\\User','2018-11-09 23:40:14',1,'2018-11-09 23:42:22',24,'Demo','Parent',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'demoparent','$2y$10$2tuyQQ8e2ZvzS8yjSuCBxulGaZIqps4Yn0Rx6Wf3yKBw6.dsjYLTm','User',NULL,NULL,NULL,NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
