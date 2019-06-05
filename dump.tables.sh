@@ -10,4 +10,7 @@ export MYSQL_TABLES=(
   courses
   course_sections
   course_section_participants
+  cbl_content_areas
+  cbl_competencies
+  cbl_skills
 )
