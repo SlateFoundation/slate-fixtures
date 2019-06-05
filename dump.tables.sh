@@ -5,4 +5,5 @@ export MYSQL_TABLES=(
   contact_points
   groups
   group_members
+  terms
 )
