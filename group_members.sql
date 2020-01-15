@@ -22,4 +22,4 @@ INSERT INTO `group_members` VALUES (3,'Emergence\\People\\Groups\\GroupMember','
 INSERT INTO `group_members` VALUES (4,'Emergence\\People\\Groups\\GroupMember','2019-01-02 03:04:05',1,12,5,'Member',NULL,NULL,'2019-01-02 03:04:05',NULL);
 INSERT INTO `group_members` VALUES (5,'Emergence\\People\\Groups\\GroupMember','2019-01-02 03:04:05',1,7,4,'Member',NULL,NULL,'2019-01-02 03:04:05',NULL);
 INSERT INTO `group_members` VALUES (6,'Emergence\\People\\Groups\\GroupMember','2019-01-02 03:04:05',1,7,6,'Member',NULL,NULL,'2019-01-02 03:04:05',NULL);
-INSERT INTO `group_members` VALUES (7,'Emergence\\People\\Groups\\GroupMember','2020-01-07 19:57:14',1,7,7,'Member',NULL,NULL,'2020-01-07 19:57:14',NULL);
+INSERT INTO `group_members` VALUES (7,'Emergence\\People\\Groups\\GroupMember','2019-01-02 03:04:05',1,7,7,'Member',NULL,NULL,'2019-01-02 03:04:05',NULL);
