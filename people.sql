@@ -29,7 +29,7 @@ CREATE TABLE `people` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Username` (`Username`),
   UNIQUE KEY `StudentNumber` (`StudentNumber`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `people` VALUES (1,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'System','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,'system','$2y$10$Ap2JdhW3.PK9j9NGhhnvQO6aU55rNiKB/fgcpiEvtWDNUkj54T7uS','Developer',NULL,NULL,NULL,NULL);
 INSERT INTO `people` VALUES (2,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Admin','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,NULL,NULL,'admin','$2y$10$4GG7HXbLKMrm84TiRhl40eWpMgip2XPnDh9ykBYtiOjtXRP2bsFj.','Administrator',NULL,NULL,NULL,NULL);
@@ -37,6 +37,7 @@ INSERT INTO `people` VALUES (3,'Emergence\\People\\User','2019-01-02 03:04:05',N
 INSERT INTO `people` VALUES (4,'Slate\\People\\Student','2019-01-02 03:04:05',NULL,NULL,NULL,'Student','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,4,NULL,NULL,'student','$2y$10$W9fLEczomvifOJS0CYIi5O0KC4aPjSGv.Wpu3KGdDNPpA2fD8.Rkq','User',NULL,NULL,NULL,NULL);
 INSERT INTO `people` VALUES (5,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Teacher2','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,NULL,NULL,'teacher2','$2y$10$tpADYt1RCQsQASt3W2VQO.yZ5CairGZjO4/KGNfwQoN5juIplqzLy','Staff',NULL,NULL,NULL,NULL);
 INSERT INTO `people` VALUES (6,'Slate\\People\\Student','2019-01-02 03:04:05',NULL,NULL,NULL,'Student2','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,6,NULL,NULL,'student2','$2y$10$tsqGd1oYRSO/xG.ZPy84r.EjjG4vd7ReEq7UcuUhorAL8/yso/kPq','User',NULL,NULL,NULL,NULL);
+INSERT INTO `people` VALUES (7,'Slate\\People\\Student','2019-01-02 03:04:05',NULL,NULL,NULL,'Student3','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,7,NULL,NULL,'student3','$2y$10$xQTWRIk1glWFdS5emIGoX.ARfHGScW48aI7oKTNRUJPKdv4d.3HD2','User',NULL,NULL,NULL,NULL);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_people` (
@@ -68,7 +69,7 @@ CREATE TABLE `history_people` (
   `GraduationYear` year(4) DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `history_people` VALUES (1,1,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'System','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,'system','$2y$10$Ap2JdhW3.PK9j9NGhhnvQO6aU55rNiKB/fgcpiEvtWDNUkj54T7uS','Developer',NULL,NULL,NULL,NULL);
 INSERT INTO `history_people` VALUES (2,2,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Admin','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,NULL,NULL,'admin','$2y$10$4GG7HXbLKMrm84TiRhl40eWpMgip2XPnDh9ykBYtiOjtXRP2bsFj.','Administrator',NULL,NULL,NULL,NULL);
@@ -76,3 +77,5 @@ INSERT INTO `history_people` VALUES (3,3,'Emergence\\People\\User','2019-01-02 0
 INSERT INTO `history_people` VALUES (4,4,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Student','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,4,NULL,NULL,'student','$2y$10$W9fLEczomvifOJS0CYIi5O0KC4aPjSGv.Wpu3KGdDNPpA2fD8.Rkq','User',NULL,NULL,NULL,NULL);
 INSERT INTO `history_people` VALUES (5,5,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Teacher2','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,NULL,NULL,'teacher2','$2y$10$tpADYt1RCQsQASt3W2VQO.yZ5CairGZjO4/KGNfwQoN5juIplqzLy','Staff',NULL,NULL,NULL,NULL);
 INSERT INTO `history_people` VALUES (6,6,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Student2','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,6,NULL,NULL,'student2','$2y$10$tsqGd1oYRSO/xG.ZPy84r.EjjG4vd7ReEq7UcuUhorAL8/yso/kPq','User',NULL,NULL,NULL,NULL);
+INSERT INTO `history_people` VALUES (7,7,'Slate\\People\\Student','2019-01-02 03:04:05',NULL,NULL,NULL,'Student3','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'student3','$2y$10$xQTWRIk1glWFdS5emIGoX.ARfHGScW48aI7oKTNRUJPKdv4d.3HD2','User',NULL,NULL,NULL,NULL);
+

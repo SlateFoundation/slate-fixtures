@@ -12,7 +12,7 @@ CREATE TABLE `contact_points` (
   `Data` text NOT NULL,
   PRIMARY KEY (`ID`),
   KEY `PersonID` (`PersonID`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `contact_points` VALUES (1,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,1,'Email','slate+system@example.org');
 INSERT INTO `contact_points` VALUES (2,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,2,'Email','slate+admin@example.org');
@@ -20,6 +20,7 @@ INSERT INTO `contact_points` VALUES (3,'Emergence\\People\\ContactPoint\\Email',
 INSERT INTO `contact_points` VALUES (4,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,4,'Email','slate+student@example.org');
 INSERT INTO `contact_points` VALUES (5,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,5,'Email','slate+teacher2@example.org');
 INSERT INTO `contact_points` VALUES (6,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,6,'Email','slate+student2@example.org');
+INSERT INTO `contact_points` VALUES (7,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,7,'School Email','slate+student3@example.com');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_contact_points` (
@@ -35,7 +36,7 @@ CREATE TABLE `history_contact_points` (
   `Data` text NOT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=14 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `history_contact_points` VALUES (1,1,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,0,'Email','slate+system@example.org');
 INSERT INTO `history_contact_points` VALUES (2,1,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,1,'Email','slate+system@example.org');
@@ -49,3 +50,4 @@ INSERT INTO `history_contact_points` VALUES (9,5,'Emergence\\People\\ContactPoin
 INSERT INTO `history_contact_points` VALUES (10,5,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,5,'Email','slate+teacher2@example.org');
 INSERT INTO `history_contact_points` VALUES (11,6,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,0,'Email','slate+student2@example.org');
 INSERT INTO `history_contact_points` VALUES (12,6,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,6,'Email','slate+student2@example.org');
+INSERT INTO `history_contact_points` VALUES (13,7,'Emergence\\People\\ContactPoint\\Email','2019-01-02 03:04:05',NULL,NULL,NULL,7,'School Email','slate+student3@example.com');
