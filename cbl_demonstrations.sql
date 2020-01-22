@@ -16,7 +16,7 @@ CREATE TABLE `cbl_demonstrations` (
   `PerformanceType` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   KEY `StudentID` (`StudentID`)
-) ENGINE=MyISAM AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `cbl_demonstrations` VALUES (1,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,4,'2019-01-01 00:01:00',NULL,NULL,'Studio','ELA Studio','ELA Task One');
 INSERT INTO `cbl_demonstrations` VALUES (2,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,4,'2019-01-01 00:02:00',NULL,NULL,'Presentation of Learning','ELA Demonstration One','Argumentative Essay');
@@ -53,6 +53,8 @@ INSERT INTO `cbl_demonstrations` VALUES (32,'Slate\\CBL\\Demonstrations\\Experie
 INSERT INTO `cbl_demonstrations` VALUES (33,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,7,'2019-01-01 00:33:00',NULL,NULL,'Studio','Testing','Debate');
 INSERT INTO `cbl_demonstrations` VALUES (34,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,7,'2019-01-01 00:34:00',NULL,NULL,'Studio','Testing','Data Analysis Task');
 INSERT INTO `cbl_demonstrations` VALUES (35,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,7,'2019-01-01 00:35:00',NULL,NULL,'Studio','Testing','Document-based Questions');
+INSERT INTO `cbl_demonstrations` VALUES (36,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2020-01-22 16:51:05',2,NULL,NULL,6,'2020-01-22 16:50:38',NULL,NULL,'test','test','test');
+INSERT INTO `cbl_demonstrations` VALUES (37,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2020-01-22 16:51:26',2,NULL,NULL,6,'2020-01-22 16:51:07',NULL,NULL,'test','test','est');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_demonstrations` (
@@ -72,7 +74,7 @@ CREATE TABLE `history_cbl_demonstrations` (
   `PerformanceType` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `history_cbl_demonstrations` VALUES (1,1,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,4,'2019-01-01 00:01:00',NULL,NULL,'Studio','ELA Studio','ELA Task One');
 INSERT INTO `history_cbl_demonstrations` VALUES (2,2,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,4,'2019-01-01 00:02:00',NULL,NULL,'Presentation of Learning','ELA Demonstration One','Argumentative Essay');
@@ -114,3 +116,5 @@ INSERT INTO `history_cbl_demonstrations` VALUES (37,33,'Slate\\CBL\\Demonstratio
 INSERT INTO `history_cbl_demonstrations` VALUES (38,34,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,7,'2019-01-01 00:34:00',NULL,NULL,'Studio','Testing','Data Analysis Task');
 INSERT INTO `history_cbl_demonstrations` VALUES (39,35,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,7,'2019-01-01 00:35:00',NULL,NULL,'Studio','Testing','Document-based Questions');
 INSERT INTO `history_cbl_demonstrations` VALUES (40,35,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2019-01-02 03:04:05',3,NULL,NULL,7,'2019-01-01 00:35:00',NULL,NULL,'Studio','Testing','Document-based Questions');
+INSERT INTO `history_cbl_demonstrations` VALUES (41,36,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2020-01-22 16:51:05',2,NULL,NULL,6,'2020-01-22 16:50:38',NULL,NULL,'test','test','test');
+INSERT INTO `history_cbl_demonstrations` VALUES (42,37,'Slate\\CBL\\Demonstrations\\ExperienceDemonstration','2020-01-22 16:51:26',2,NULL,NULL,6,'2020-01-22 16:51:07',NULL,NULL,'test','test','est');
