@@ -16,7 +16,7 @@ CREATE TABLE `cbl_demonstration_skills` (
   UNIQUE KEY `DemonstrationSkill` (`DemonstrationID`,`SkillID`),
   KEY `DemonstrationID` (`DemonstrationID`),
   KEY `SkillID` (`SkillID`)
-) ENGINE=MyISAM AUTO_INCREMENT=302 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=316 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `cbl_demonstration_skills` VALUES (1,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,1,9,9,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (2,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,2,9,9,0);
@@ -318,6 +318,20 @@ INSERT INTO `cbl_demonstration_skills` VALUES (298,'Slate\\CBL\\Demonstrations\\
 INSERT INTO `cbl_demonstration_skills` VALUES (299,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-22 16:51:26',2,NULL,NULL,37,7,10,0,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (300,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-22 16:51:26',2,NULL,NULL,37,8,10,0,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (301,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-22 16:51:26',2,NULL,NULL,37,9,10,0,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (302,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,10,11,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (303,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,11,11,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (304,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,12,11,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (305,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,13,11,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (306,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,14,11,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (307,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,15,11,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (308,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,35,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (309,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,36,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (310,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,37,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (311,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,38,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (312,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:22',1,NULL,NULL,40,39,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (313,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:22',1,NULL,NULL,40,40,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (314,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:56',1,NULL,NULL,41,39,9,9,0);
+INSERT INTO `cbl_demonstration_skills` VALUES (315,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:56',1,NULL,NULL,41,40,9,9,0);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_demonstration_skills` (
@@ -335,7 +349,7 @@ CREATE TABLE `history_cbl_demonstration_skills` (
   `Override` tinyint(1) NOT NULL DEFAULT '0',
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=306 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=320 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `history_cbl_demonstration_skills` VALUES (1,1,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,1,9,9,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (2,2,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,2,9,9,0);
@@ -642,3 +656,17 @@ INSERT INTO `history_cbl_demonstration_skills` VALUES (302,298,'Slate\\CBL\\Demo
 INSERT INTO `history_cbl_demonstration_skills` VALUES (303,299,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-22 16:51:26',2,NULL,NULL,37,7,10,0,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (304,300,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-22 16:51:26',2,NULL,NULL,37,8,10,0,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (305,301,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-22 16:51:26',2,NULL,NULL,37,9,10,0,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (306,302,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,10,11,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (307,303,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,11,11,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (308,304,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,12,11,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (309,305,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,13,11,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (310,306,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,14,11,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (311,307,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:27:15',1,NULL,NULL,38,15,11,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (312,308,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,35,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (313,309,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,36,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (314,310,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,37,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (315,311,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:32:14',1,NULL,NULL,39,38,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (316,312,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:22',1,NULL,NULL,40,39,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (317,313,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:22',1,NULL,NULL,40,40,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (318,314,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:56',1,NULL,NULL,41,39,9,9,0);
+INSERT INTO `history_cbl_demonstration_skills` VALUES (319,315,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2020-01-23 15:35:56',1,NULL,NULL,41,40,9,9,0);
