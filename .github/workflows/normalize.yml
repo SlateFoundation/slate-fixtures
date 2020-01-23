@@ -1,0 +1,85 @@
+
+name: Normalize SQL dumps
+
+on:
+  push:
+    branches:
+    - '**'
+
+jobs:
+  normalize-toml:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+    - name: Initialize Chef Habitat artifacts cache directory
+      run: |
+        sudo mkdir -p /hab/cache/artifacts
+        sudo chown runner:docker -R /hab
+    - name: Cache Chef Habitat artifacts
+      uses: actions/cache@v1
+      with:
+        path: /hab/cache/artifacts
+        key: hab-cache-artifacts
+    - name: 'Stop default mysql service'
+      run: sudo service mysql stop
+    - name: 'Initialize Chef Habitat environment'
+      uses: JarvusInnovations/habitat-action@master
+      env:
+        HAB_LICENSE: accept
+        HAB_MYSQL: |
+          app_username = 'appadmin'
+          app_password = 'appadmin'
+          bind = '0.0.0.0'
+      with:
+        supervisor: |
+          core/mysql
+    - name: 'Load data'
+      run: |
+        {
+          echo 'CREATE DATABASE `default`;'
+          echo 'USE `default`;'
+          cat *.sql
+        } | hab pkg exec core/mysql mysql -u root -h 127.0.0.1
+    - name: 'Normalize data'
+      run: |
+        hab pkg exec core/mysql mysql -u root -h 127.0.0.1 default <<END_OF_SQL
+
+          UPDATE cbl_demonstrations
+             SET Created = '2019-01-02 03:04:05',
+                 CreatorID = 3,
+                 Modified = NULL,
+                 ModifierID = NULL,
+                 Demonstrated = FROM_UNIXTIME(1546300800 + ID * 60);
+
+          UPDATE history_cbl_demonstrations
+             SET Created = '2019-01-02 03:04:05',
+                 CreatorID = 3,
+                 Modified = NULL,
+                 ModifierID = NULL,
+                 Demonstrated = FROM_UNIXTIME(1546300800 + ID * 60);
+
+          UPDATE cbl_demonstration_skills
+             SET Created = '2019-01-02 03:04:05',
+                 CreatorID = 3,
+                 Modified = NULL,
+                 ModifierID = NULL;
+
+          UPDATE history_cbl_demonstration_skills
+             SET Created = '2019-01-02 03:04:05',
+                 CreatorID = 3,
+                 Modified = NULL,
+                 ModifierID = NULL;
+
+        END_OF_SQL
+    - name: 'Dump data'
+      run: ./dump.sh
+    - name: Commit and push any changes
+      run: |
+        if [[ -n $(git status -s) ]]; then
+          git config user.email "60245544+jarvus-bot@users.noreply.github.com"
+          git config user.name "Jarvus Bot"
+          git commit --all -m "style: normalize SQL"
+          git push
+        fi
