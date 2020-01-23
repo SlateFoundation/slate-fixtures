@@ -17,7 +17,7 @@ DUMP_OPTIONS=(
 
 source ./dump.tables.sh
 
-if [ -z "${MYSQL_TABLES[@]}" ]; then
+if [ -z "${MYSQL_TABLES[*]}" ]; then
   echo "No tables configured in ./dump.tables.sh"
   exit 1
 fi
