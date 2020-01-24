@@ -35,6 +35,8 @@ jobs:
       with:
         supervisor: |
           core/mysql
+    - name: 'Waiting for mysql...'
+      run: until mysqladmin ping -u root -h 127.0.0.1 --silent; do sleep .1; done
     - name: 'Load data'
       run: |
         {
