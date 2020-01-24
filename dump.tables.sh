@@ -13,4 +13,5 @@ export MYSQL_TABLES=(
   cbl_content_areas
   cbl_competencies
   cbl_skills
+  cbl_student_competencies
 )
