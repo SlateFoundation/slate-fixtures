@@ -78,4 +78,3 @@ INSERT INTO `history_people` VALUES (4,4,'Emergence\\People\\User','2019-01-02 0
 INSERT INTO `history_people` VALUES (5,5,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Teacher2','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,NULL,NULL,'teacher2','$2y$10$tpADYt1RCQsQASt3W2VQO.yZ5CairGZjO4/KGNfwQoN5juIplqzLy','Staff',NULL,NULL,NULL,NULL);
 INSERT INTO `history_people` VALUES (6,6,'Emergence\\People\\User','2019-01-02 03:04:05',NULL,NULL,NULL,'Student2','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,6,NULL,NULL,'student2','$2y$10$tsqGd1oYRSO/xG.ZPy84r.EjjG4vd7ReEq7UcuUhorAL8/yso/kPq','User',NULL,NULL,NULL,NULL);
 INSERT INTO `history_people` VALUES (7,7,'Slate\\People\\Student','2019-01-02 03:04:05',NULL,NULL,NULL,'Student3','Slate',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'student3','$2y$10$xQTWRIk1glWFdS5emIGoX.ARfHGScW48aI7oKTNRUJPKdv4d.3HD2','User',NULL,NULL,NULL,NULL);
-
