@@ -6,4 +6,8 @@ export MYSQL_TABLES=(
   groups
   group_members
   terms
+  course_departments
+  courses
+  course_sections
+  course_section_participants
 )
