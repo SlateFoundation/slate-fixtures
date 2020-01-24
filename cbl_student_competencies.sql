@@ -12,7 +12,7 @@ CREATE TABLE `cbl_student_competencies` (
   `BaselineRating` decimal(5,2) DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `StudentCompetency` (`StudentID`,`CompetencyID`,`Level`)
-) ENGINE=MyISAM AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=65 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `cbl_student_competencies` VALUES (1,'Slate\\CBL\\StudentCompetency','2019-01-02 03:04:05',2,4,1,9,'enrollment',9.00);
 INSERT INTO `cbl_student_competencies` VALUES (2,'Slate\\CBL\\StudentCompetency','2019-01-02 03:04:05',2,6,1,9,'enrollment',9.00);
@@ -52,3 +52,29 @@ INSERT INTO `cbl_student_competencies` VALUES (35,'Slate\\CBL\\StudentCompetency
 INSERT INTO `cbl_student_competencies` VALUES (36,'Slate\\CBL\\StudentCompetency','2019-10-11 21:34:15',3,4,4,12,'graduation',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (37,'Slate\\CBL\\StudentCompetency','2019-10-11 21:34:15',3,4,5,12,'graduation',10.00);
 INSERT INTO `cbl_student_competencies` VALUES (38,'Slate\\CBL\\StudentCompetency','2019-10-11 21:34:15',3,4,7,11,'graduation',10.00);
+INSERT INTO `cbl_student_competencies` VALUES (39,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,1,9,'enrollment',7.25);
+INSERT INTO `cbl_student_competencies` VALUES (40,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,2,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (41,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,3,9,'enrollment',5.50);
+INSERT INTO `cbl_student_competencies` VALUES (42,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,4,9,'enrollment',5.67);
+INSERT INTO `cbl_student_competencies` VALUES (43,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,5,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (44,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,6,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (45,'Slate\\CBL\\StudentCompetency','2020-01-07 19:58:32',1,7,7,9,'enrollment',7.00);
+INSERT INTO `cbl_student_competencies` VALUES (46,'Slate\\CBL\\StudentCompetency','2020-01-07 20:22:23',1,7,25,9,'enrollment',9.14);
+INSERT INTO `cbl_student_competencies` VALUES (47,'Slate\\CBL\\StudentCompetency','2020-01-07 20:22:23',1,7,26,9,'enrollment',9.50);
+INSERT INTO `cbl_student_competencies` VALUES (48,'Slate\\CBL\\StudentCompetency','2020-01-07 20:22:23',1,7,27,9,'enrollment',9.67);
+INSERT INTO `cbl_student_competencies` VALUES (49,'Slate\\CBL\\StudentCompetency','2020-01-07 20:22:23',1,7,28,9,'enrollment',9.67);
+INSERT INTO `cbl_student_competencies` VALUES (50,'Slate\\CBL\\StudentCompetency','2020-01-07 20:52:26',1,7,27,10,'graduation',9.67);
+INSERT INTO `cbl_student_competencies` VALUES (51,'Slate\\CBL\\StudentCompetency','2020-01-07 20:52:26',1,7,28,10,'graduation',9.67);
+INSERT INTO `cbl_student_competencies` VALUES (52,'Slate\\CBL\\StudentCompetency','2020-01-07 20:53:09',1,7,25,10,'graduation',9.14);
+INSERT INTO `cbl_student_competencies` VALUES (53,'Slate\\CBL\\StudentCompetency','2020-01-07 20:53:09',1,7,26,10,'graduation',9.25);
+INSERT INTO `cbl_student_competencies` VALUES (54,'Slate\\CBL\\StudentCompetency','2020-01-07 21:22:13',1,7,29,9,'enrollment',9.40);
+INSERT INTO `cbl_student_competencies` VALUES (55,'Slate\\CBL\\StudentCompetency','2020-01-07 21:22:13',1,7,30,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (56,'Slate\\CBL\\StudentCompetency','2020-01-07 21:22:13',1,7,31,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (57,'Slate\\CBL\\StudentCompetency','2020-01-07 21:22:13',1,7,32,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (58,'Slate\\CBL\\StudentCompetency','2020-01-07 21:54:45',1,7,8,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (59,'Slate\\CBL\\StudentCompetency','2020-01-07 21:54:45',1,7,9,9,'enrollment',NULL);
+INSERT INTO `cbl_student_competencies` VALUES (60,'Slate\\CBL\\StudentCompetency','2020-01-07 21:54:45',1,7,10,9,'enrollment',9.33);
+INSERT INTO `cbl_student_competencies` VALUES (61,'Slate\\CBL\\StudentCompetency','2020-01-07 21:54:45',1,7,11,9,'enrollment',9.00);
+INSERT INTO `cbl_student_competencies` VALUES (62,'Slate\\CBL\\StudentCompetency','2020-01-07 22:10:08',1,7,10,10,'graduation',9.33);
+INSERT INTO `cbl_student_competencies` VALUES (63,'Slate\\CBL\\StudentCompetency','2020-01-07 22:11:59',1,7,10,11,'graduation',9.67);
+INSERT INTO `cbl_student_competencies` VALUES (64,'Slate\\CBL\\StudentCompetency','2020-01-07 22:12:59',1,7,11,10,'graduation',9.00);
