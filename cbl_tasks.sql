@@ -21,10 +21,11 @@ CREATE TABLE `cbl_tasks` (
   PRIMARY KEY (`ID`),
   UNIQUE KEY `Handle` (`Handle`),
   KEY `SectionID` (`SectionID`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `cbl_tasks` VALUES (1,'Slate\\CBL\\Tasks\\ExperienceTask','2019-01-02 03:04:05',3,NULL,NULL,2,'ELA Task One','ela_task_one',NULL,NULL,NULL,'private','Follow the instructions.',NULL,NULL,'Studio');
 INSERT INTO `cbl_tasks` VALUES (2,'Slate\\CBL\\Tasks\\ExperienceTask','2019-01-02 03:04:05',3,NULL,NULL,2,'ELA Task Two','ela_task_two',NULL,NULL,NULL,'private','Follow the instructions.',NULL,NULL,'Studio');
+INSERT INTO `cbl_tasks` VALUES (3,'Slate\\CBL\\Tasks\\ExperienceTask','2019-01-02 03:04:05',3,NULL,NULL,4,'Test Task (Current Year any Term)','test_task-current_year_any_term',NULL,NULL,NULL,'private','Follow the instructions.',NULL,NULL,'Studio');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_tasks` (
@@ -48,7 +49,8 @@ CREATE TABLE `history_cbl_tasks` (
   `ExperienceType` varchar(255) DEFAULT 'Studio',
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `history_cbl_tasks` VALUES (1,1,'Slate\\CBL\\Tasks\\ExperienceTask','2019-01-02 03:04:05',3,NULL,NULL,2,'ELA Task One','ela_task_one',NULL,NULL,NULL,'private','Follow the instructions.',NULL,NULL,'Studio');
 INSERT INTO `history_cbl_tasks` VALUES (2,2,'Slate\\CBL\\Tasks\\ExperienceTask','2019-01-02 03:04:05',3,NULL,NULL,2,'ELA Task Two','ela_task_two',NULL,NULL,NULL,'private','Follow the instructions.',NULL,NULL,'Studio');
+INSERT INTO `history_cbl_tasks` VALUES (3,3,'Slate\\CBL\\Tasks\\ExperienceTask','2019-01-02 03:04:05',3,NULL,NULL,4,'Test Task (Current Year any Term)','test_task-current_year_any_term',NULL,NULL,NULL,'private','Follow the instructions.',NULL,NULL,'Studio');
