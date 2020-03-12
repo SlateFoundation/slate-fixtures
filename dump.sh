@@ -8,10 +8,10 @@ DUMP_OPTIONS=(
   --skip-opt
   --skip-comments
   --skip-dump-date
+  --tz-utc
   --create-options
   --order-by-primary
   --single-transaction
-  --compact
   --quick
 )
 

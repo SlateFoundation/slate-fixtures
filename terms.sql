@@ -1,3 +1,9 @@
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `terms` (
@@ -21,6 +27,7 @@ CREATE TABLE `terms` (
   FULLTEXT KEY `FULLTEXT` (`Title`)
 ) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `terms` VALUES (1,'Slate\\Term','2019-01-02 03:04:05',1,'2019-06-05 05:45:34',1,'2017-18','y2017','Live','2017-09-01','2018-04-30',NULL,1,14);
 INSERT INTO `terms` VALUES (2,'Slate\\Term','2019-01-02 03:04:05',1,'2019-06-05 05:44:30',1,'2017-18: 1st Semester','s2017-1','Live','2017-09-01','2017-12-31',1,2,7);
 INSERT INTO `terms` VALUES (3,'Slate\\Term','2019-01-02 03:04:05',1,'2019-06-05 05:45:31',1,'2017-18: 2nd Semester','s2017-2','Live','2018-01-01','2018-04-30',1,8,13);
@@ -64,6 +71,7 @@ CREATE TABLE `history_terms` (
   KEY `ID` (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `history_terms` VALUES (1,1,'Slate\\Term','2019-01-02 03:04:05',1,'2019-06-05 05:45:34',1,'2017-18','y2017','Live','2017-09-01','2018-04-30',NULL,1,14);
 INSERT INTO `history_terms` VALUES (2,2,'Slate\\Term','2019-01-02 03:04:05',1,'2019-06-05 05:44:30',1,'2017-18: 1st Semester','s2017-1','Live','2017-09-01','2017-12-31',1,2,7);
 INSERT INTO `history_terms` VALUES (3,3,'Slate\\Term','2019-01-02 03:04:05',1,'2019-06-05 05:45:31',1,'2017-18: 2nd Semester','s2017-2','Live','2018-01-01','2018-04-30',1,8,13);
@@ -85,3 +93,10 @@ INSERT INTO `history_terms` VALUES (18,18,'Slate\\Term','2019-01-02 03:04:05',1,
 INSERT INTO `history_terms` VALUES (19,19,'Slate\\Term','2019-01-02 03:04:05',1,NULL,NULL,'2019-20: 2nd Quarter','q2019-2','Live','2019-11-01','2019-12-31',16,33,34);
 INSERT INTO `history_terms` VALUES (20,20,'Slate\\Term','2019-01-02 03:04:05',1,NULL,NULL,'2019-20: 3rd Quarter','q2019-3','Live','2020-01-01','2020-02-28',17,37,38);
 INSERT INTO `history_terms` VALUES (21,21,'Slate\\Term','2019-01-02 03:04:05',1,NULL,NULL,'2019-20: 4th Quarter','q2019-4','Live','2020-03-01','2020-04-30',17,39,40);
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

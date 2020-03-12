@@ -1,3 +1,9 @@
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `cbl_demonstration_skills` (
@@ -18,6 +24,7 @@ CREATE TABLE `cbl_demonstration_skills` (
   KEY `SkillID` (`SkillID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=316 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `cbl_demonstration_skills` VALUES (1,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,1,9,9,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (2,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,2,9,9,0);
 INSERT INTO `cbl_demonstration_skills` VALUES (3,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,3,9,9,0);
@@ -351,6 +358,7 @@ CREATE TABLE `history_cbl_demonstration_skills` (
   KEY `ID` (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=320 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `history_cbl_demonstration_skills` VALUES (1,1,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,1,9,9,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (2,2,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,2,9,9,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (3,3,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,1,3,9,9,0);
@@ -670,3 +678,10 @@ INSERT INTO `history_cbl_demonstration_skills` VALUES (316,312,'Slate\\CBL\\Demo
 INSERT INTO `history_cbl_demonstration_skills` VALUES (317,313,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,40,40,9,9,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (318,314,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,41,39,9,9,0);
 INSERT INTO `history_cbl_demonstration_skills` VALUES (319,315,'Slate\\CBL\\Demonstrations\\DemonstrationSkill','2019-01-02 03:04:05',3,NULL,NULL,41,40,9,9,0);
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

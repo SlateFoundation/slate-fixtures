@@ -1,3 +1,9 @@
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `cbl_competencies` (
@@ -16,6 +22,7 @@ CREATE TABLE `cbl_competencies` (
   KEY `ContentAreaID` (`ContentAreaID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `cbl_competencies` VALUES (1,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1','Reading Critically','I can read and critique diverse texts (e.g., books, films, advertising, music, social media, news websites).');
 INSERT INTO `cbl_competencies` VALUES (2,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.2','Expressing Ideas','I can clearly and effectively express my ideas (in written and oral form) for particular purposes and audiences, using diverse formats and settings to inform, persuade, and connect with others.');
 INSERT INTO `cbl_competencies` VALUES (3,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.3','Writing Evidence-based Arguments','I can write evidence-based arguments to support claims in an analysis of substantive topics or texts using valid reasoning and relevant and sufficient evidence.');
@@ -73,6 +80,7 @@ CREATE TABLE `history_cbl_competencies` (
   KEY `ID` (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=40 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `history_cbl_competencies` VALUES (1,1,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1','Reading Critically','I can read and critique diverse texts (e.g., books, films, advertising, music, social media, news websites).');
 INSERT INTO `history_cbl_competencies` VALUES (2,2,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.2','Expressing Ideas','I can clearly and effectively express my ideas (in written and oral form) for particular purposes and audiences, using diverse formats and settings to inform, persuade, and connect with others.');
 INSERT INTO `history_cbl_competencies` VALUES (3,3,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.3','Writing Evidence-based Arguments','I can write evidence-based arguments to support claims in an analysis of substantive topics or texts using valid reasoning and relevant and sufficient evidence.');
@@ -112,3 +120,10 @@ INSERT INTO `history_cbl_competencies` VALUES (36,36,'Slate\\CBL\\Competency','2
 INSERT INTO `history_cbl_competencies` VALUES (37,37,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,11,'WF.2','Wayfinding 2','During my second portfolio of Wayfinding, I will participate in career-connected studios and prepare for my Foundations Capstone.');
 INSERT INTO `history_cbl_competencies` VALUES (38,38,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,11,'WF.3','Wayfinding 3','During my third portfolio of Wayfinding, I will start to personalize my pathway and begin to create my post-secondary plan.');
 INSERT INTO `history_cbl_competencies` VALUES (39,39,'Slate\\CBL\\Competency','2019-01-02 03:04:05',1,NULL,NULL,11,'WF.4','Wayfinding 4','In my final Wayfinding portfolio, I will create my post-secondary plan and choose a passion project for my Design Capstone.');
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

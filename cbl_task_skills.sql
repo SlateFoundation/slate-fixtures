@@ -1,3 +1,9 @@
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `cbl_task_skills` (
@@ -13,6 +19,7 @@ CREATE TABLE `cbl_task_skills` (
   UNIQUE KEY `Task` (`TaskID`,`SkillID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=69 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `cbl_task_skills` VALUES (1,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,1,1);
 INSERT INTO `cbl_task_skills` VALUES (2,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,1,2);
 INSERT INTO `cbl_task_skills` VALUES (3,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,1,3);
@@ -97,6 +104,7 @@ CREATE TABLE `history_cbl_task_skills` (
   KEY `ID` (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=69 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `history_cbl_task_skills` VALUES (1,1,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,1,1);
 INSERT INTO `history_cbl_task_skills` VALUES (2,2,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,1,2);
 INSERT INTO `history_cbl_task_skills` VALUES (3,3,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,1,3);
@@ -165,3 +173,10 @@ INSERT INTO `history_cbl_task_skills` VALUES (65,65,'Slate\\CBL\\Tasks\\TaskSkil
 INSERT INTO `history_cbl_task_skills` VALUES (66,66,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,2,32);
 INSERT INTO `history_cbl_task_skills` VALUES (67,67,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,2,33);
 INSERT INTO `history_cbl_task_skills` VALUES (68,68,'Slate\\CBL\\Tasks\\TaskSkill','2019-01-02 03:04:05',3,NULL,NULL,2,34);
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

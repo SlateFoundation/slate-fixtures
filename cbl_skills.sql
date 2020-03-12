@@ -1,3 +1,9 @@
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `cbl_skills` (
@@ -17,6 +23,7 @@ CREATE TABLE `cbl_skills` (
   KEY `CompetencyID` (`CompetencyID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=205 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `cbl_skills` VALUES (1,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1.1','Choose and apply reading strategies','How well can I apply reading strategies to make meaning of texts?','{\"9\": \"3\", \"10\": \"3\", \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
 INSERT INTO `cbl_skills` VALUES (2,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1.2','Evaluate the main ideas or themes','How well can I analyze the main idea or central theme?','{\"9\": \"3\", \"10\": \"3\", \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
 INSERT INTO `cbl_skills` VALUES (3,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1.3','Analyze context, point of view, and purpose','How well do I account for the role of point of view and author\'s purpose in shaping the text?','{\"9\": \"3\", \"10\": \"3\", \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
@@ -240,6 +247,7 @@ CREATE TABLE `history_cbl_skills` (
   KEY `ID` (`ID`)
 ) ENGINE=MyISAM AUTO_INCREMENT=219 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
 INSERT INTO `history_cbl_skills` VALUES (1,1,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1.1','Choose and apply reading strategies','How well can I apply reading strategies to make meaning of texts?','{\"9\": \"3\", \"10\": \"3\", \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
 INSERT INTO `history_cbl_skills` VALUES (2,2,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1.2','Evaluate the main ideas or themes','How well can I analyze the main idea or central theme?','{\"9\": \"3\", \"10\": \"3\", \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
 INSERT INTO `history_cbl_skills` VALUES (3,3,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,1,'ELA.1.3','Analyze context, point of view, and purpose','How well do I account for the role of point of view and author\'s purpose in shaping the text?','{\"9\": \"3\", \"10\": \"3\", \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
@@ -458,3 +466,10 @@ INSERT INTO `history_cbl_skills` VALUES (215,146,'Slate\\CBL\\Skill','2019-01-02
 INSERT INTO `history_cbl_skills` VALUES (216,147,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,25,'SCI.1.5','Organize & strengthen plan','How well can I strengthen my plan using feedback?','{\"9\": \"2\", \"10\": 3, \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
 INSERT INTO `history_cbl_skills` VALUES (217,148,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,25,'SCI.1.6','Carry out the experiment','How well can I test my prediction by carrying out my plan?','{\"9\": \"2\", \"10\": 3, \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
 INSERT INTO `history_cbl_skills` VALUES (218,149,'Slate\\CBL\\Skill','2019-01-02 03:04:05',1,NULL,NULL,25,'SCI.1.7','Iterate using results','How well can I reflect on my findings and think about next steps?','{\"9\": \"2\", \"10\": 3, \"11\": \"3\", \"12\": \"3\", \"default\": \"1\"}');
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
