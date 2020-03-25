@@ -21,7 +21,7 @@ CREATE TABLE `cbl_student_tasks` (
   `ExpirationDate` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`ID`),
   UNIQUE KEY `StudentTask` (`TaskID`,`StudentID`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `cbl_student_tasks` VALUES (1,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,1,4,'completed',1,NULL,NULL);
@@ -29,6 +29,8 @@ INSERT INTO `cbl_student_tasks` VALUES (2,'Slate\\CBL\\Tasks\\StudentTask','2019
 INSERT INTO `cbl_student_tasks` VALUES (3,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,2,4,'completed',5,NULL,NULL);
 INSERT INTO `cbl_student_tasks` VALUES (4,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,2,6,'completed',3,NULL,NULL);
 INSERT INTO `cbl_student_tasks` VALUES (5,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,3,4,'assigned',NULL,NULL,NULL);
+INSERT INTO `cbl_student_tasks` VALUES (6,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,4,4,'assigned',NULL,NULL,NULL);
+INSERT INTO `cbl_student_tasks` VALUES (7,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,5,4,'assigned',NULL,NULL,NULL);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_cbl_student_tasks` (
@@ -47,7 +49,7 @@ CREATE TABLE `history_cbl_student_tasks` (
   `ExpirationDate` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_cbl_student_tasks` VALUES (1,1,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,1,4,'completed',1,NULL,NULL);
@@ -55,6 +57,8 @@ INSERT INTO `history_cbl_student_tasks` VALUES (2,2,'Slate\\CBL\\Tasks\\StudentT
 INSERT INTO `history_cbl_student_tasks` VALUES (3,3,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,2,4,'completed',5,NULL,NULL);
 INSERT INTO `history_cbl_student_tasks` VALUES (4,4,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,2,6,'completed',3,NULL,NULL);
 INSERT INTO `history_cbl_student_tasks` VALUES (5,5,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,3,4,'assigned',NULL,NULL,NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (6,6,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,4,4,'assigned',NULL,NULL,NULL);
+INSERT INTO `history_cbl_student_tasks` VALUES (7,7,'Slate\\CBL\\Tasks\\StudentTask','2019-01-02 03:04:05',3,NULL,NULL,5,4,'assigned',NULL,NULL,NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;

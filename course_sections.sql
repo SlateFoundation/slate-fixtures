@@ -26,13 +26,14 @@ CREATE TABLE `course_sections` (
   UNIQUE KEY `Code` (`Code`),
   KEY `CourseID` (`CourseID`),
   FULLTEXT KEY `FULLTEXT` (`Notes`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `course_sections` VALUES (1,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio','MATH-001','Live',NULL,NULL,15,NULL,NULL);
 INSERT INTO `course_sections` VALUES (2,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,2,'ELA Studio','ELA-001','Live',NULL,NULL,15,NULL,NULL);
 INSERT INTO `course_sections` VALUES (3,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,2,'ELA Studio','ELA-EMPTY','Live',NULL,NULL,15,NULL,NULL);
-INSERT INTO `course_sections` VALUES (4,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio - Fall','MATH-F001','Live',NULL,NULL,18,NULL,NULL);
+INSERT INTO `course_sections` VALUES (4,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio','MATH-002','Live',NULL,NULL,18,NULL,NULL);
+INSERT INTO `course_sections` VALUES (5,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio','MATH-003','Live',NULL,NULL,8,NULL,NULL);
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `history_course_sections` (
@@ -54,13 +55,14 @@ CREATE TABLE `history_course_sections` (
   `LocationID` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`RevisionID`),
   KEY `ID` (`ID`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 INSERT INTO `history_course_sections` VALUES (1,1,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio','MATH-001','Live',NULL,NULL,15,NULL,NULL);
 INSERT INTO `history_course_sections` VALUES (2,2,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,2,'ELA Studio','ELA-001','Live',NULL,NULL,15,NULL,NULL);
 INSERT INTO `history_course_sections` VALUES (3,3,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,2,'ELA Studio','ELA-EMPTY','Live',NULL,NULL,15,NULL,NULL);
-INSERT INTO `history_course_sections` VALUES (4,4,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio - Fall','MATH-F001','Live',NULL,NULL,18,NULL,NULL);
+INSERT INTO `history_course_sections` VALUES (4,4,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio','MATH-002','Live',NULL,NULL,18,NULL,NULL);
+INSERT INTO `history_course_sections` VALUES (5,5,'Slate\\Courses\\Section','2019-01-02 03:04:05',1,NULL,NULL,1,'Math Studio','MATH-003','Live',NULL,NULL,8,NULL,NULL);
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
